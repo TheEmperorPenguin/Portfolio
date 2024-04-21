@@ -3,7 +3,8 @@ html, body {
     padding: 0;
     height: 100%;
     scrollbar-width: none;
-    background-image: "space.png"
+    background-image: url("space.png")
+    z-index: -10;
   }
   
   main {
@@ -15,10 +16,12 @@ html, body {
   }
 
   body {
+    background-image: url("space.png")
     background: hsl(220deg, 10%, 97%);
     margin: 0;
     padding: 0;
     overflow: hidden; /* This will disable scrolling */
+    z-index: -10;
   }
   
 
