@@ -23,7 +23,7 @@ html, body {
   }
   
 
-    .spline-viewer {
+    iframe {
       width: 100vw; /* 100% of the viewport width */
       height: 120vh; /* 120% of the viewport height */
       position: absolute;
