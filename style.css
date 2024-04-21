@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     height: 100%;
     scrollbar-width: none;
+    background-image: "sky.png"
   }
   
   main {
