@@ -23,12 +23,13 @@ html, body {
   }
   
 
-  spline-viewer {
-    width: 100%;
-    height: 120%;
-    position: absolute;
-    z-index: -1;
-  }
+    .spline-viewer {
+      width: 100vw; /* 100% of the viewport width */
+      height: 120vh; /* 120% of the viewport height */
+      position: absolute;
+      z-index: -1;
+    }
+
   .buttons-container {
     margin-top: 20%;
     width: 100%;
